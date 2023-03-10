@@ -23,7 +23,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex"
+            className="flex-1"
           >
             <h2 className="h2 text-accent">About me.</h2>
             <h3 className="h3 mb-4">
