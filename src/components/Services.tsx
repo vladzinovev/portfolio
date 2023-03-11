@@ -35,7 +35,7 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <motion.div
-            variants={fadeIn("rigth", 0.3)}
+            variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
@@ -78,7 +78,7 @@ const Services = () => {
                         href="#"
                         className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
                       >
-                        <BsArrowUpRight />
+                        <BsArrowUpRight /> 
                       </a>
                       <a href="#" className="text-gradient text-sm">
                         {link}
