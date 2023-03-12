@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import Logo from "../assets/logo.svg";
 
 const Header = () => {
@@ -8,7 +9,14 @@ const Header = () => {
           <a href='#'>
             <img src={Logo} alt=''/>
           </a>
-          <button className='btn btn-sm'>Work with me</button>
+          <button className='btn btn-sm'>
+          <Link
+            smooth={true}
+            spy={true}
+            to="work"
+            className="cursor-pointer items-center"
+          >Work with me</Link>
+          </button>
         </div>
       </div>
     </header>
