@@ -36,10 +36,10 @@ const Work = () => {
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40">
                 <span className="text-gradient">UI/UX Design</span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-40">
                 <span className="text-3xl text-white">Project Title</span>
               </div>
             </div>
@@ -58,10 +58,10 @@ const Work = () => {
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40">
                 <span className="text-gradient">UI/UX Design</span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-40">
                 <span className="text-3xl text-white">Project Title</span>
               </div>
             </div>
@@ -72,10 +72,10 @@ const Work = () => {
                 alt=""
                 className="group-hover:scale-125 transition-all duration-500"
               />
-              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40">
                 <span className="text-gradient">UI/UX Design</span>
               </div>
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-40">
                 <span className="text-3xl text-white">Project Title</span>
               </div>
             </div>

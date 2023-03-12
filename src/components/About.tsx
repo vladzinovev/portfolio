@@ -69,18 +69,24 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">
+              <Link
+                smooth={true}
+                spy={true}
+                to="contact"
+                className="cursor-pointer items-center"
+              >
+                <button className="btn btn-lg">Contact me</button>
+              </Link>
+
+              <a href="#" className="text-gradient btn-link">
                 <Link
                   smooth={true}
                   spy={true}
-                  to="contact"
+                  to="work"
                   className="cursor-pointer items-center"
                 >
-                  Contact me
+                  My Portfolio
                 </Link>
-              </button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
               </a>
             </div>
           </motion.div>

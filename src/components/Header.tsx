@@ -9,14 +9,16 @@ const Header = () => {
           <a href='#'>
             <img src={Logo} alt=''/>
           </a>
-          <button className='btn btn-sm'>
+          
           <Link
             smooth={true}
             spy={true}
             to="work"
             className="cursor-pointer items-center"
-          >Work with me</Link>
-          </button>
+          >
+            <button className='btn btn-sm'>Work with me</button>
+          </Link>
+          
         </div>
       </div>
     </header>
