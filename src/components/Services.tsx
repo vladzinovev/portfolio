@@ -42,7 +42,7 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
-            <h2 className="h2 text-accent mb-6">What I Do.</h2>
+            <h2 className="h2 text-blue-700 mb-6">What I Do.</h2>
             <h3 className="h3 max-w-[455px] mb-16">
               {" "}
               I'm a Freelance Front-end Developer with over 5 years of
@@ -84,11 +84,11 @@ const Services = () => {
                     <div className="flex flex-col flex-1 items-end">
                       <a
                         href="#"
-                        className="btn w-9 h-9 mb-[42px] flex justify-center items-center"
+                        className="btn w-9 h-9 mb-[32px] flex justify-center items-center"
                       >
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className="text-gradient text-sm">
+                      <a href="#" className="bg-gradient-to-r text-transparent bg-clip-text from-[#3b82f6] to-[#42A6E3] text-m leading-none hover:from-[#FF56F6] hover:to-[#42A6E3]">
                         {link}
                       </a>
                     </div>

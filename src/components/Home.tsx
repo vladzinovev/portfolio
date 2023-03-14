@@ -41,7 +41,7 @@ const Home = () => {
                   2000,
                 ]}
                 speed={50}
-                className="text-green-900"
+                className="text-blue-700"
                 wrapper="span"
                 repeat={Infinity}
               />
