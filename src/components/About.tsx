@@ -13,7 +13,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
           <motion.div
-            variants={fadeIn("right", 0.3)}
+            variants={fadeIn("down", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
@@ -26,7 +26,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-blue-700">About me.</h2>
+            <h2 className="h2 text-blue-500">About me.</h2>
             <h3 className="h3 mb-4">
               I'm a Freelance Front-end Developer with over 5 years of
               experience.

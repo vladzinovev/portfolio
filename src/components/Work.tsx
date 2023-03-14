@@ -18,11 +18,11 @@ const Work = () => {
             className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
           >
             <div>
-              <h2 className="h2 leading-tight text-blue-700">
+              <h2 className="h2 leading-tight text-blue-500">
                 My Latest <br />
                 Work.
               </h2>
-              <p className="max-w-sm mb-16">
+              <p className="max-w-sm mb-16 lg:mb-10">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Distinctio possimus perspiciatis commodi quae placeat ut beatae
                 nam non tempore.
