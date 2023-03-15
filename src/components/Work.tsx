@@ -23,9 +23,8 @@ const Work = () => {
                 Work.
               </h2>
               <p className="max-w-sm mb-16 lg:mb-10 xl:mb-16">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Distinctio possimus perspiciatis commodi quae placeat ut beatae
-                nam non tempore.
+                Below are some samples. I create various MPA, SPA and PWA. 
+                Deadlines depend on the complexity of the work (from 7 days to 30 days).
               </p>
               <button className="btn btn-sm">View all projects</button>
             </div>

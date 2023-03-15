@@ -32,15 +32,12 @@ const About = () => {
               experience.
             </h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-              natus! Cumque, aliquam molestias. A illo sed asperiores alias
-              nobis cupiditate eos omnis saepe praesentium. Consequuntur
-              suscipit ullam impedit veritatis odit.
+            My name is Vladislav Zinoviev. I write websites of any complexity. Also at the moment I am engaged in website support for more than 10 large branded stores. If you want me to make a website, leave a request through the form. <br/> I use: React, Next, Mob-x, Redux toolkit, React Context, React-Query, Java Script, Type Script, HTML, CSS (SASS,SCSS), React-Query, Material-UI, Tailwindcss.
             </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={13} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={11} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br />
@@ -49,8 +46,8 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={15} duration={3} /> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={100} duration={3} /> : null}
+                  +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br />
@@ -59,8 +56,8 @@ const About = () => {
               </div>
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={12} duration={3} /> : null}
-                  k+
+                  {inView ? <CountUp start={0} end={88} duration={3} /> : null}
+                  +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Satisfied <br />

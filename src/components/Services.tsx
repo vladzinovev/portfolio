@@ -88,7 +88,7 @@ const Services = () => {
                       >
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className="bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#42A6E3] text-m leading-none hover:from-[#FF56F6] hover:to-[#42A6E3]">
+                      <a href="#" className=" mr-[-10px] bg-gradient-to-r text-transparent bg-clip-text w-[50px] from-[#42A6E3] to-[#42A6E3] text-m leading-none hover:from-[#FF56F6] hover:to-[#42A6E3]">
                         {link}
                       </a>
                     </div>

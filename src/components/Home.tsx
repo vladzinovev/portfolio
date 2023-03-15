@@ -1,5 +1,5 @@
 import Image from "../assets/avatar.svg";
-import { FaGithub, FaYoutube, FaTelegramPlane } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -37,7 +37,7 @@ const Home = () => {
                   2000,
                   "Designer",
                   2000,
-                  "YouTuber",
+                  "Blogger",
                   2000,
                 ]}
                 speed={50}
@@ -53,10 +53,7 @@ const Home = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A beatae
-              ducimus molestias voluptas dicta autem quisquam! Dolorem illum
-              ipsam, labore, cum dicta, quaerat neque ducimus nobis delectus
-              earum alias laudantium.
+              Welcome to my website. I am a frontend developer from Kazan. I have been writing custom websites for more than 5 years, of any complexity. I also support websites. I have more than a hundred satisfied customers.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -91,14 +88,14 @@ const Home = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
-                <FaYoutube />
-              </a>
               <a href="https://github.com/vladzinovev">
                 <FaGithub />
               </a>
               <a href="https://t.me/vladz10">
                 <FaTelegramPlane />
+              </a>
+              <a href="https://instagram.com/vlad_z_10">
+                <FaInstagram />
               </a>
             </motion.div>
           </div>
