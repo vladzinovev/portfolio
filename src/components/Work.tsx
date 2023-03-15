@@ -15,14 +15,14 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0"
+            className="flex-1 flex flex-col gap-y-12 mb-10"
           >
             <div>
               <h2 className="h2 leading-tight text-blue-500">
                 My Latest <br />
                 Work.
               </h2>
-              <p className="max-w-sm mb-16 lg:mb-10">
+              <p className="max-w-sm mb-16 lg:mb-10 xl:mb-16">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Distinctio possimus perspiciatis commodi quae placeat ut beatae
                 nam non tempore.
@@ -51,7 +51,7 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 flex flex-col gap-y-10"
           >
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl mb-0 lg:mb-11 xl:mb-0">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 src={Img2}

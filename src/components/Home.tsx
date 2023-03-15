@@ -1,5 +1,5 @@
 import Image from "../assets/avatar.svg";
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaTelegramPlane } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -19,7 +19,7 @@ const Home = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
+              className="text-[65px] font-bold leading-[0.8] lg:text-[110px]"
             >
               VLAD <span>ZINOVIEV</span>
             </motion.h1>
@@ -94,11 +94,11 @@ const Home = () => {
               <a href="#">
                 <FaYoutube />
               </a>
-              <a href="#">
+              <a href="https://github.com/vladzinovev">
                 <FaGithub />
               </a>
-              <a href="#">
-                <FaDribbble />
+              <a href="https://t.me/vladz10">
+                <FaTelegramPlane />
               </a>
             </motion.div>
           </div>
