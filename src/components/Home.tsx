@@ -53,7 +53,10 @@ const Home = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Welcome to my website. I am a frontend developer from Kazan. I have been writing custom websites for more than 5 years, of any complexity. I also support websites. I have more than a hundred satisfied customers.
+              Welcome to my website. I am a frontend developer from Kazan. I
+              have been writing custom websites for more than 5 years, of any
+              complexity. I also support websites. I have more than a hundred
+              satisfied customers.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -70,16 +73,15 @@ const Home = () => {
               >
                 <button className="btn btn-lg">Contact me</button>
               </Link>
-              <a href="#" className="text-gradient btn-link">
-                <Link
-                  smooth={true}
-                  spy={true}
-                  to="work"
-                  className="cursor-pointer items-center"
-                >
-                  My Portfolio
-                </Link>
-              </a>
+
+              <Link
+                smooth={true}
+                spy={true}
+                to="work"
+                className="cursor-pointer items-center text-gradient btn-link"
+              >
+                My Portfolio
+              </Link>
             </motion.div>
             <motion.div
               variants={fadeIn("up", 0.7)}

@@ -26,7 +26,10 @@ const Work = () => {
                 Below are some samples. I create various MPA, SPA and PWA. 
                 Deadlines depend on the complexity of the work (from 7 days to 30 days).
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <a href="https://github.com/vladzinovev">
+                <button className="btn btn-sm">View all projects</button>
+              </a>
+              
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -39,7 +42,7 @@ const Work = () => {
                 <span className="text-gradient">UI/UX Design</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-40">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">Nike</span>
               </div>
             </div>
           </motion.div>
@@ -58,10 +61,10 @@ const Work = () => {
                 className="group-hover:scale-125 transition-all duration-500"
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Development</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-40">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">IKEA</span>
               </div>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -72,10 +75,10 @@ const Work = () => {
                 className="group-hover:scale-125 transition-all duration-500"
               />
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Digital Marketing</span>
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-40">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-white">wildberries</span>
               </div>
             </div>
           </motion.div>
