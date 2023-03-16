@@ -7,25 +7,25 @@ const services = [
   {
     name: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus provident voluptas. ",
+      "These are the areas of user interface design. Make the program functional, intuitive and visually appealing.",
     link: "Learn more",
   },
   {
     name: "Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus provident voluptas. ",
+      "Creating websites using programming languages or CMS. The interface developer is responsible for coding and programming the elements of the website visible to site visitors. ",
     link: "Learn more",
   },
   {
     name: "Digital Marketing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus provident voluptas. ",
+      "Digital marketing is described as the collection of tools, procedures, and strategies used to aggressively market a product, service, or company.",
     link: "Learn more",
   },
   {
     name: "Product Branding",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptatibus provident voluptas. ",
+      "Digital branding is the marketing technique of actively shaping your brand. Branding is the process of defining who you are as a company.",
     link: "Learn more",
   },
 ];
