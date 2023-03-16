@@ -82,7 +82,7 @@ const About = () => {
                   to="work"
                   className="cursor-pointer items-center"
                 >
-                  My Portfolio
+                  Development
                 </Link>
               </a>
             </div>

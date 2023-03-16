@@ -20,10 +20,10 @@ const Header = () => {
           <Link
             smooth={true}
             spy={true}
-            to="work"
+            to="about"
             className="cursor-pointer items-center"
           >
-            <button className="btn btn-sm">Work with me</button>
+            <button className="btn btn-sm">My portfolio</button>
           </Link>
         </div>
       </div>

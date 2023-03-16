@@ -4,6 +4,7 @@ import { fadeIn } from "../variants";
 import Img1 from "../assets/portfolio-img1.png";
 import Img2 from "../assets/portfolio-img2.png";
 import Img3 from "../assets/portfolio-img3.png";
+import { Link } from "react-scroll";
 
 const Work = () => {
   return (
@@ -26,9 +27,18 @@ const Work = () => {
                 Below are some samples. I create various MPA, SPA and PWA. 
                 Deadlines depend on the complexity of the work (from 7 days to 30 days).
               </p>
-              <a href="https://github.com/vladzinovev">
-                <button className="btn btn-sm">View all projects</button>
+              <Link
+                smooth={true}
+                spy={true}
+                to="contact"
+                className="cursor-pointer items-center "
+              >
+                <button className="btn btn-sm mr-5">Contact me</button>
+              </Link>
+              <a href="https://github.com/vladzinovev" className="cursor-pointer items-center text-gradient btn-link">
+                View all projects
               </a>
+              
               
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">

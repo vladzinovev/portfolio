@@ -68,10 +68,10 @@ const Home = () => {
               <Link
                 smooth={true}
                 spy={true}
-                to="contact"
+                to="services"
                 className="cursor-pointer items-center"
               >
-                <button className="btn btn-lg">Contact me</button>
+                <button className="btn btn-lg">Development</button>
               </Link>
 
               <Link
@@ -80,7 +80,7 @@ const Home = () => {
                 to="work"
                 className="cursor-pointer items-center text-gradient btn-link"
               >
-                My Portfolio
+                My works
               </Link>
             </motion.div>
             <motion.div
