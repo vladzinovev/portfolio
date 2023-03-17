@@ -5,7 +5,7 @@ const Header = () => {
     <header className=" py-8">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-        <Link
+          <Link
             smooth={true}
             spy={true}
             to="about"

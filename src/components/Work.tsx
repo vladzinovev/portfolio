@@ -24,8 +24,9 @@ const Work = () => {
                 Work.
               </h2>
               <p className="max-w-sm mb-16 lg:mb-10 xl:mb-16">
-                Below are some samples. I create various MPA, SPA and PWA. 
-                Deadlines depend on the complexity of the work (from 7 days to 30 days).
+                Below are some samples. I create various MPA, SPA and PWA.
+                Deadlines depend on the complexity of the work (from 7 days to
+                30 days).
               </p>
               <Link
                 smooth={true}
@@ -35,11 +36,12 @@ const Work = () => {
               >
                 <button className="btn btn-sm mr-5">Contact me</button>
               </Link>
-              <a href="https://github.com/vladzinovev" className="cursor-pointer items-center text-gradient btn-link">
+              <a
+                href="https://github.com/vladzinovev"
+                className="cursor-pointer items-center text-gradient btn-link"
+              >
                 View all projects
               </a>
-              
-              
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>

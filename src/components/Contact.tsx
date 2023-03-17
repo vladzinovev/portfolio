@@ -24,7 +24,7 @@ const Contact = () => {
         },
         (error) => {
           setError(`Sorry ${error.text}`);
-        },
+        }
       );
   };
 

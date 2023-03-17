@@ -67,7 +67,7 @@ const Services = () => {
           >
             <div>
               {services.map((service, index) => {
-                const { name, description, link, } = service;
+                const { name, description, link } = service;
                 return (
                   <div
                     className="border-b border-white/20 h-[146px] mb-[38px] flex"
@@ -88,7 +88,10 @@ const Services = () => {
                       >
                         <BsArrowUpRight />
                       </a>
-                      <a href={link} className=" mr-[-10px] bg-gradient-to-r text-transparent bg-clip-text w-[50px] from-[#42A6E3] to-[#42A6E3] text-m leading-none hover:from-[#FF56F6] hover:to-[#42A6E3]">
+                      <a
+                        href={link}
+                        className=" mr-[-10px] bg-gradient-to-r text-transparent bg-clip-text w-[50px] from-[#42A6E3] to-[#42A6E3] text-m leading-none hover:from-[#FF56F6] hover:to-[#42A6E3]"
+                      >
                         Learn more
                       </a>
                     </div>
