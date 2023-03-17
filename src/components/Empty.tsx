@@ -2,7 +2,7 @@
 
 const Empty = () => {
   return (
-    <section className=' h-[1000px]'>
+    <section className=' h-[500px]'>
     </section>
   );
 };
