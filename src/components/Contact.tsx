@@ -1,7 +1,28 @@
+import emailjs from "emailjs-com";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const Contact = () => {
+  const templateParams = {
+    name: "James",
+    notes: "Check this out!",
+  };
+
+  emailjs
+    .send(
+      "service_gwy52ws",
+      "<YOUR TEMPLATE ID>",
+      templateParams,
+      "<YOUR USER ID>"
+    )
+    .then(
+      (response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      },
+      (err) => {
+        console.log("FAILED...", err);
+      }
+    );
   return (
     <section id="contact" className="py-16 lg:section">
       <div className="container mx-auto">
