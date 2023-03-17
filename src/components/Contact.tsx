@@ -1,28 +1,43 @@
-import emailjs from "emailjs-com";
+import React, { useEffect, useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const Contact = () => {
-  const templateParams = {
-    name: "James",
-    notes: "Check this out!",
+  const form: any = useRef();
+  const [message, setMessage] = useState<string>("");
+  const [error, setError] = useState<string>("");
+
+  const sendEmail = (e: any) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_gwy52ws",
+        "template_vlyjjz5",
+        form.current,
+        "f76t_WIEowAMj5vmY"
+      )
+      .then(
+        (result) => {
+          setMessage("Your message has been sent");
+          e.target.reset();
+        },
+        (error) => {
+          setError(`Sorry ${error.text}`);
+        },
+      );
   };
 
-  emailjs
-    .send(
-      "service_gwy52ws",
-      "<YOUR TEMPLATE ID>",
-      templateParams,
-      "<YOUR USER ID>"
-    )
-    .then(
-      (response) => {
-        console.log("SUCCESS!", response.status, response.text);
-      },
-      (err) => {
-        console.log("FAILED...", err);
-      }
-    );
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setMessage("");
+      setError("");
+    }, 10000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [message, error]);
+
   return (
     <section id="contact" className="py-16 lg:section">
       <div className="container mx-auto">
@@ -48,21 +63,28 @@ const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
+            ref={form}
+            onSubmit={sendEmail}
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
           >
+            {message && <div className="text-green-400">{message}</div>}
+            {error && <div className="text-red-600">{error}</div>}
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="text"
               placeholder="Your name"
+              name="user_name"
             />
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
               type="text"
               placeholder="Your mail"
+              name="user_email"
             />
             <textarea
               className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
               placeholder="Your mesage"
+              name="message"
             ></textarea>
             <button className="btn btn-lg">Send message</button>
           </motion.form>
