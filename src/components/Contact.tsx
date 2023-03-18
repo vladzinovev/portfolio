@@ -1,7 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+
+import { fadeIn } from "../utils/variants";
 
 const Contact = () => {
   const form: any = useRef();

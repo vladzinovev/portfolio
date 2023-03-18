@@ -1,9 +1,10 @@
-import Image from "../assets/avatar.svg";
+import { Link } from "react-scroll";
 import { FaGithub, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
-import { Link } from "react-scroll";
+
+import { fadeIn } from "../utils/variants";
+import Image from "../assets/avatar.svg";
 
 const Home = () => {
   return (
