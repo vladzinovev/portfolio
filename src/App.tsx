@@ -24,7 +24,6 @@ const App = () => {
       <Work />
       <Empty />
       <Contact />
-      <div className="h-[4000px]"></div>
     </div>
   );
 };
